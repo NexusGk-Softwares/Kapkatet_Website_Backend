@@ -1,0 +1,21 @@
+{
+    "name": "nexusgk/backend",
+    "description": "initialise backend",
+    "type": "project",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Nexusgk\\Backend\\": "src/",
+            "Models\\": "models/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+    "php": "^7.4 || ^8.1",
+    "slim/slim": "^4.0",
+    "doctrine/dbal": "^3.0",
+    "firebase/php-jwt": "^5.0",
+    "vlucas/phpdotenv": "^5.3"
+  }
+
+}
